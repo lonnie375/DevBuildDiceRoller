@@ -113,7 +113,7 @@ static string SixSided(int firstDice, int secondDice)
 {
     if (firstDice == 1 && secondDice == 1)
     {
-        return "Snake Eyes"; 
+        return "Snake Eyes, Craps"; 
     }
     else if (firstDice == 1 && secondDice == 2)
     {
@@ -121,7 +121,8 @@ static string SixSided(int firstDice, int secondDice)
     }
     else if (firstDice == 6 && secondDice == 6)
     {
-        return "Box Cars"; 
+        return "Box Cars, Craps";
+       
     }
     else if (firstDice + secondDice == 7 || firstDice + secondDice == 11)
     {
